@@ -1,0 +1,23 @@
+{
+  "name": "OData Tool",
+  "description": "OData Tool for successfactors",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "launch": {
+      "local_path": "OData.html"
+    }
+  },
+  /*
+  "background": {
+    "scripts": ["background.js"]
+  },
+  */
+  "permissions": [
+    "activeTab"
+  ],
+  "icons": {
+    "16": "OData-logo.png",
+    "128": "OData-logo.png"
+  }
+}
